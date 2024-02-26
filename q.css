@@ -1,0 +1,218 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+html,body{
+    height:100%;
+    width:100%;
+    background-color: #4169E1;
+}
+.container{
+    height:23vw;
+    width:25.5vw;
+    background-color: #008000;
+    position: absolute;
+    top:20%;
+    left:35%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#hLine{
+   
+   border:1px solid black;
+}
+
+.buttonContainer{
+ 
+    height:13vw;
+    width:23vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+   
+}
+.btn{
+    height:2.5vw;
+    width:23vw;
+    border-radius: 7px;
+    border: none;
+}
+#next{
+    height:2.3vw;
+    width:7vw;
+    border-radius: 6px;
+    
+    border: none;
+}
+.scoreBoard{
+    color:white;
+    margin-left: 100px;
+    
+}
+@media screen and (max-width:400px){
+    .container{
+        height:120vw;
+        width:95vw;
+        background-color: #008000;
+        position: absolute;
+        top:20%;
+        left:1%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .buttonContainer{
+ 
+        height:63vw;
+        width:73vw;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin:2.3vw;
+        
+    }
+    .btn{
+        height:15vw;
+        width:73vw;
+        border-radius: 7px;
+        border: none;
+    }
+    #next{
+        height:10vw;
+        width:40vw;
+        border-radius: 6px;
+        
+        border: none;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:650px){
+    .container{
+        height:80vw;
+        width:75vw;
+        background-color: #008000;
+        position: absolute;
+        top:20%;
+        left:10%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .buttonContainer{
+ 
+        height:43vw;
+        width:53vw;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin:2.3vw;
+       
+    }
+    .btn{
+        height:10vw;
+        width:53vw;
+        border-radius: 7px;
+        border: none;
+    }
+    #next{
+        height:8vw;
+        width:30vw;
+        border-radius: 6px;
+        
+        border: none;
+    }
+}
+
+
+@media screen and (min-width:650px) and (max-width:900px){
+    .container{
+        height:52vw;
+        width:45vw;
+        background-color: #008000;
+        position: absolute;
+        top:20%;
+        left:23%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .buttonContainer{
+ 
+        height:30vw;
+        width:33vw;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin:2.3vw;
+        
+    }
+    .btn{
+        height:7vw;
+        width:33vw;
+        border-radius: 7px;
+        border: none;
+    }
+    #next{
+        height:6vw;
+        width:20vw;
+        border-radius: 6px;
+        
+        border: none;
+    }
+}
+
+
+@media screen and (min-width:900px) and (max-width:1300px){
+    .container{
+        height:39vw;
+        width:35vw;
+        background-color: #008000;
+        position: absolute;
+        top:20%;
+        left:35%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .buttonContainer{
+ 
+        height:23vw;
+        width:25vw;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin:2.3vw;
+       
+    }
+    .btn{
+        height:5vw;
+        width:25vw;
+        border-radius: 7px;
+        border: none;
+    }
+    #next{
+        height:4vw;
+        width:15vw;
+        border-radius: 6px;
+        
+        border: none;
+    }
+}
